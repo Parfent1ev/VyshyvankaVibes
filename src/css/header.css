@@ -22,7 +22,7 @@ body {
 }
 
 .header .container {
-    margin: 0;
+  margin: 0;
 }
 
 .header-container {
@@ -125,11 +125,11 @@ body {
 }
 
 .navigation-list-mob {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    gap: 20px;
-    margin: auto 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 20px;
+  margin: auto 0;
 }
 
 .navigation-link-mob {
@@ -183,27 +183,33 @@ body {
   .header {
     padding-top: 20px;
   }
+
   .social-list-menu {
     right: 95px;
     top: 22px;
   }
+
   .menu-icon {
     top: 33px;
     right: 32px;
   }
+
   .bar {
     width: 37px;
   }
+
   .bar:nth-child(2) {
     width: 27px;
   }
+
   .mobile-menu {
     padding-top: 20px;
   }
+
   .address-link-mob {
     width: 195px;
     font-size: 14px;
     line-height: 1.43;
     padding: 14px 28px;
-    }
+  }
 }
