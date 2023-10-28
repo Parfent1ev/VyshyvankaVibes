@@ -1,0 +1,128 @@
+.our-collection {
+  background-color: #1c2225;
+  /* padding-top: 18px;
+  padding-bottom: 80px; */
+  background-image: url(../img/mobile/collection-back-mob-1x.png);
+  background-repeat: no-repeat;
+  background-position: left 316px;
+}
+
+.title-collection-section {
+  text-align: center;
+  color: #fcf9f9;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.4;
+  letter-spacing: -0.03em;
+  margin-bottom: 40px;
+}
+
+.collection-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.collection-item {
+  width: 100%;
+}
+
+.collection-img {
+  margin-bottom: 18px;
+  border-radius: 4px;
+  /* width: 335px;
+  height: 400px; */
+}
+
+/* .collection-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+} */
+
+.collection-vyshyvanka-name {
+  overflow: hidden;
+  color: #fcf9f9;
+  text-overflow: ellipsis;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.collection-vyshyvanka-price {
+  color: rgba(252, 249, 249, 0.4);
+  font-size: 14px;
+  line-height: 1;
+  letter-spacing: 0.02em;
+}
+
+@media screen and (min-width: 768px) {
+  /* .container {
+    max-width: 768px;
+    padding: 0 32px;
+  } */
+
+  .our-collection {
+    /* padding-top: 50px;
+    padding-bottom: 100px; */
+    background-image: url(../img/tablet/collection-back-tab-1x.png);
+    background-repeat: no-repeat;
+    background-position: left 271px;
+  }
+
+  .title-collection-section {
+    color: #fcf9f9;
+    font-family: Manrope;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.45;
+    letter-spacing: -0.03em;
+  }
+
+  .collection-list {
+    row-gap: 20px;
+    column-gap: 20px;
+  }
+
+  /* .collection-img {
+    width: 342px;
+    height: 430px;
+  } */
+
+  .collection-item {
+    width: calc((100% - 20px) / 2);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  /* .container {
+    max-width: 1280px;
+    padding: 0 98px;
+  } */
+
+  .our-collection {
+    /* padding-top: 70px;
+    padding-bottom: 150px; */
+    background-image: url(../img/pc-1280/collection-back-pc-1x.png);
+    background-repeat: no-repeat;
+    background-position: left 291px;
+  }
+
+  /* .collection-img {
+    width: 347px;
+    height: 430px;
+  } */
+
+  .collection-list {
+    gap: 40px 20px;
+  }
+
+  .collection-item {
+    width: calc((100% - 40px) / 3);
+  }
+}
