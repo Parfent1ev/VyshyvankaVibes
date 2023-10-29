@@ -1,5 +1,4 @@
 .hero {
-  background-color: #1c2225;
   padding-bottom: 80px;
   padding-top: 60px;
 }
@@ -131,12 +130,11 @@
     gap: 40px;
   }
   .hero-pc-title {
-    width: 518px;
+    min-width: 518px;
   }
 
   .hero-title {
     margin-top: 94px;
-    max-width: 518px;
   }
 
   .hero-tab-star {
@@ -144,12 +142,16 @@
   }
 
   .hero-picture {
-    width: 392px;
-    height: 545px;
+    flex-shrink: 0;
   }
 
   .hero-anchor-btn {
     font-size: 16px;
     padding: 14px 39px;
+  }
+
+  .hero-tab-picture {
+    width: 142px;
+    height: 156px;
   }
 }
