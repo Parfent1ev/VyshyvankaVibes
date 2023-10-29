@@ -4,9 +4,6 @@
   padding-top: 60px;
 }
 
-.hero-mob {
-}
-
 .hero-tab,
 .hero-pc {
   display: none;
@@ -86,15 +83,9 @@
     width: 168px;
     margin-left: 141px;
   }
-  .hero-anchor-btn {
-    font-size: 16px;
-    padding: 14px 39px;
-  }
+
   .hero-container {
     display: flex;
-  }
-
-  .hero-mob {
   }
 
   .hero-tab {
@@ -123,9 +114,6 @@
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
-  }
-
-  .hero-embroid {
   }
 }
 
@@ -158,5 +146,10 @@
   .hero-picture {
     width: 392px;
     height: 545px;
+  }
+
+  .hero-anchor-btn {
+    font-size: 16px;
+    padding: 14px 39px;
   }
 }
