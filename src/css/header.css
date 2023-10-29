@@ -2,23 +2,6 @@ address {
   font-style: normal;
 }
 
-body {
-  background: #1C2225;
-}
-
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-
 .header {
   padding-top: 27px;
 }
@@ -161,10 +144,6 @@ body {
 #menu-toggle:checked ~.mobile-menu {
   right: 0;
 }
-
-/* #menu-toggle:checked~.content {
-  transform: translateX(-100%);
-} */
 
 @media screen and (min-width: 768px) {
 
