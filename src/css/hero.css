@@ -114,6 +114,11 @@
     align-items: flex-end;
     justify-content: flex-end;
   }
+
+  .hero-anchor-btn {
+    font-size: 16px;
+    padding: 14px 39px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
@@ -143,11 +148,6 @@
 
   .hero-picture {
     flex-shrink: 0;
-  }
-
-  .hero-anchor-btn {
-    font-size: 16px;
-    padding: 14px 39px;
   }
 
   .hero-tab-picture {
