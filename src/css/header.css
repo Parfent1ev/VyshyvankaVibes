@@ -86,7 +86,7 @@ body {
   display: flex;
   flex-direction: column;
   overflow: auto;
-}
+}                               
 
 .menu-icon {
   position: absolute;
