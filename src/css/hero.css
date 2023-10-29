@@ -1,12 +1,14 @@
 .hero {
   background-color: #1c2225;
   padding-bottom: 80px;
+  padding-top: 60px;
 }
 
 .hero-mob {
 }
 
-.hero-tab {
+.hero-tab,
+.hero-pc {
   display: none;
 }
 
@@ -66,10 +68,18 @@
 }
 
 @media screen and (min-width: 768px) {
+  .hero-pc {
+    display: none;
+  }
   .hero-title {
+    margin-top: 26px;
     max-width: 549px;
     font-size: 54px;
     margin-bottom: 40px;
+  }
+
+  .hero-star-icon {
+    fill: #ecd979;
   }
 
   .hero-button {
@@ -83,7 +93,70 @@
   .hero-container {
     display: flex;
   }
+
+  .hero-mob {
+  }
+
+  .hero-tab {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  .hero-tab-star {
+    width: 115px;
+    color: rgba(252, 249, 249, 0.4);
+    text-align: center;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.04em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .hero-tab-picture {
+    width: 157px;
+    height: 191px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
+
+  .hero-embroid {
+  }
 }
 
 @media screen and (min-width: 1280px) {
+  .hero-button {
+    margin-left: 141px;
+  }
+
+  .hero-mob {
+    display: none;
+  }
+
+  .hero-pc {
+    display: flex;
+    gap: 40px;
+  }
+  .hero-pc-title {
+    width: 518px;
+  }
+
+  .hero-title {
+    margin-top: 94px;
+    max-width: 518px;
+  }
+
+  .hero-tab-star {
+    margin-top: 14px;
+  }
+
+  .hero-picture {
+    width: 392px;
+    height: 545px;
+  }
 }
