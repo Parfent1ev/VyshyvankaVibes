@@ -1,11 +1,3 @@
-div {
-  background-color: #1c2225;
-}
-
-.testimonials {
-  padding: 80px 0;
-}
-
 .testimonials-title {
   color: #fcf9f9;
   font-size: 32px;
@@ -47,16 +39,12 @@ div {
   text-align: center;
   font-size: 14px;
   line-height: normal;
-  width: 291px;
+  max-width: 291px;
 }
 
 @media screen and (min-width: 768px) {
   .testimonials-list-item:nth-child(2) {
     display: block;
-  }
-
-  .testimonials {
-    padding: 100px 0;
   }
 
   .testimonials-title {
@@ -82,10 +70,6 @@ div {
 @media screen and (min-width: 1280px) {
   .testimonials-list-item:nth-child(3) {
     display: block;
-  }
-
-  .testimonials {
-    padding: 150px 0;
   }
 
   .testimonials-list {
