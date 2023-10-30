@@ -4,7 +4,7 @@
   padding-bottom: 80px; */
   background-image: url(../img/mobile/collection-back-mob-1x.png);
   background-repeat: no-repeat;
-  background-position: left 316px;
+  background-position: left 378px;
 }
 
 .title-collection-section {
@@ -71,7 +71,7 @@
     padding-bottom: 100px; */
     background-image: url(../img/tablet/collection-back-tab-1x.png);
     background-repeat: no-repeat;
-    background-position: left 271px;
+    background-position: left 321px;
   }
 
   .title-collection-section {
@@ -110,7 +110,7 @@
     padding-bottom: 150px; */
     background-image: url(../img/pc-1280/collection-back-pc-1x.png);
     background-repeat: no-repeat;
-    background-position: left 291px;
+    background-position: left 371px;
   }
 
   /* .collection-img {
