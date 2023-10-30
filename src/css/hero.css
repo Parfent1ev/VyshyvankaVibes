@@ -1,0 +1,156 @@
+.hero-tab,
+.hero-pc {
+  display: none;
+}
+
+.hero-title {
+  color: #fcf9f9;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: -0.03em;
+  margin-bottom: 20px;
+}
+
+.hero-ukrainian {
+  color: #ecd979;
+}
+
+.hero-button {
+  margin-bottom: 40px;
+  margin-left: 70px;
+  display: flex;
+}
+
+.hero-anchor-btn {
+  color: #fcf9f9;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  padding: 14px 36px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-radius: 15px;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  transition: border-color 250ms linear;
+}
+
+.hero-anchor-btn:hover,
+.hero-anchor-btn:focus {
+  border-color: #ecd979;
+}
+
+.btn-icon {
+  fill: #ecd979;
+}
+
+.hero-picture {
+  flex-shrink: 0;
+}
+
+.hero-foto {
+  border-radius: 4px;
+  background: lightgray 50% / cover no-repeat;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-pc {
+    display: none;
+  }
+  .hero-title {
+    margin-top: 26px;
+    max-width: 549px;
+    font-size: 54px;
+    margin-bottom: 40px;
+  }
+
+  .hero-star-icon {
+    fill: #ecd979;
+  }
+
+  .hero-button {
+    width: 168px;
+    margin-left: 141px;
+  }
+
+  .hero-container {
+    display: flex;
+  }
+
+  .hero-tab {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  .hero-tab-star {
+    width: 115px;
+    color: rgba(252, 249, 249, 0.4);
+    text-align: center;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.04em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .hero-tab-picture {
+    width: 157px;
+    height: 191px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
+
+  .hero-anchor-btn {
+    font-size: 16px;
+    padding: 14px 39px;
+  }
+
+  .hero-embroid {
+    transform: translateY(50%);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .hero-button {
+    margin-left: 141px;
+  }
+
+  .hero-mob {
+    display: none;
+  }
+
+  .hero-pc {
+    display: flex;
+    gap: 40px;
+  }
+  .hero-pc-title {
+    min-width: 518px;
+  }
+
+  .hero-title {
+    margin-top: 94px;
+  }
+
+  .hero-tab-star {
+    margin-top: 14px;
+  }
+
+  .hero-picture {
+    flex-shrink: 0;
+  }
+
+  .hero-tab-picture {
+    width: 142px;
+    height: 156px;
+  }
+}
