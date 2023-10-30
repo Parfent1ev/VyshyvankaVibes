@@ -1,10 +1,7 @@
 .our-collection {
-  background-color: #1c2225;
-  /* padding-top: 18px;
-  padding-bottom: 80px; */
   background-image: url(../img/mobile/collection-back-mob-1x.png);
   background-repeat: no-repeat;
-  background-position: left 378px;
+  background-position: left 280px;
 }
 
 .title-collection-section {
@@ -30,16 +27,7 @@
 .collection-img {
   margin-bottom: 18px;
   border-radius: 4px;
-  /* width: 335px;
-  height: 400px; */
 }
-
-/* .collection-text {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 8px;
-} */
 
 .collection-vyshyvanka-name {
   overflow: hidden;
@@ -61,17 +49,10 @@
 }
 
 @media screen and (min-width: 768px) {
-  /* .container {
-    max-width: 768px;
-    padding: 0 32px;
-  } */
-
   .our-collection {
-    /* padding-top: 50px;
-    padding-bottom: 100px; */
     background-image: url(../img/tablet/collection-back-tab-1x.png);
     background-repeat: no-repeat;
-    background-position: left 321px;
+    background-position: left 220px;
   }
 
   .title-collection-section {
@@ -89,34 +70,17 @@
     column-gap: 20px;
   }
 
-  /* .collection-img {
-    width: 342px;
-    height: 430px;
-  } */
-
   .collection-item {
     width: calc((100% - 20px) / 2);
   }
 }
 
 @media screen and (min-width: 1280px) {
-  /* .container {
-    max-width: 1280px;
-    padding: 0 98px;
-  } */
-
   .our-collection {
-    /* padding-top: 70px;
-    padding-bottom: 150px; */
     background-image: url(../img/pc-1280/collection-back-pc-1x.png);
     background-repeat: no-repeat;
-    background-position: left 371px;
+    background-position: left 220px;
   }
-
-  /* .collection-img {
-    width: 347px;
-    height: 430px;
-  } */
 
   .collection-list {
     gap: 40px 20px;
