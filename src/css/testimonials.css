@@ -1,3 +1,8 @@
+.testimonials {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
 .testimonials-title {
   color: #fcf9f9;
   font-size: 32px;
@@ -43,6 +48,12 @@
 }
 
 @media screen and (min-width: 768px) {
+
+  .testimonials {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
   .testimonials-list-item:nth-child(2) {
     display: block;
   }
@@ -68,6 +79,12 @@
 }
 
 @media screen and (min-width: 1280px) {
+
+  .testimonials {
+    padding-top: 150px;
+    padding-bottom: 150px;
+  }
+
   .testimonials-list-item:nth-child(3) {
     display: block;
   }
