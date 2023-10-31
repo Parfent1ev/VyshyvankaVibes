@@ -69,7 +69,15 @@ address {
   display: flex;
   flex-direction: column;
   overflow: auto;
-}                               
+}
+
+@media (min-device-pixel-ratio:2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+  .mobile-menu {
+    background-image: url(../img/mobile/mob-menu-2x.png);
+  }
+}
 
 .menu-icon {
   position: absolute;
@@ -175,6 +183,14 @@ address {
     background-image: url(../img/tablet/tab-menu-1x.png);
     background-size: 100%;
   }
+
+    @media (min-device-pixel-ratio:2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+      .mobile-menu {
+        background-image: url(../img/tablet/tab-menu-2x.png);
+      }
+    }
 
   .address-link-mob {
     width: 195px;
