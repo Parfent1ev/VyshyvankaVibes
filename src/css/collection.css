@@ -2,6 +2,8 @@
   background-image: url(../img/mobile/collection-back-mob-1x.png);
   background-repeat: no-repeat;
   background-position: left 280px;
+  padding-top: 18px;
+  padding-bottom: 80px;
 }
 
 .title-collection-section {
@@ -53,6 +55,8 @@
     background-image: url(../img/tablet/collection-back-tab-1x.png);
     background-repeat: no-repeat;
     background-position: left 220px;
+    padding-top: 50px;
+    padding-bottom: 100px;
   }
 
   .title-collection-section {
@@ -80,6 +84,8 @@
     background-image: url(../img/pc-1280/collection-back-pc-1x.png);
     background-repeat: no-repeat;
     background-position: left 220px;
+    padding-top: 70px;
+    padding-bottom: 150px;
   }
 
   .collection-list {
