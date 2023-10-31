@@ -3,6 +3,11 @@
   display: none;
 }
 
+.hero {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
 .hero-title {
   color: #fcf9f9;
   font-size: 44px;
@@ -62,6 +67,12 @@
   .hero-pc {
     display: none;
   }
+
+.hero {
+    padding-top: 80px;
+    padding-bottom: 50px;
+  }
+
   .hero-title {
     margin-top: 26px;
     max-width: 549px;
@@ -123,6 +134,11 @@
 @media screen and (min-width: 1280px) {
   .hero-button {
     margin-left: 141px;
+  }
+
+  .hero {
+    padding-top: 100px;
+    padding-bottom: 75px;
   }
 
   .hero-mob {
