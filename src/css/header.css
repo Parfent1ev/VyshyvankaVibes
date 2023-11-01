@@ -153,6 +153,10 @@ address {
   right: 0;
 }
 
+#menu-toggle:checked + .menu-icon {
+  position: fixed;
+}
+
 @media screen and (min-width: 768px) {
 
   .header {
