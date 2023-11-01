@@ -2,7 +2,7 @@
   background-image: url(../img/mobile/collection-back-mob-1x.png);
   background-repeat: no-repeat;
   background-position: left 280px;
-  padding-top: 18px;
+  padding-top: 80px;
   padding-bottom: 80px;
 }
 
@@ -81,6 +81,8 @@
 
 @media screen and (min-width: 1280px) {
   .our-collection {
+    padding-top: 70px;
+    padding-bottom: 150px;
     background-image: url(../img/pc-1280/collection-back-pc-1x.png);
     background-repeat: no-repeat;
     background-position: left 220px;
