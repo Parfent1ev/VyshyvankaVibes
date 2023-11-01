@@ -21,7 +21,6 @@ p {
 img {
   display: block;
   max-width: 100%;
-  height: auto;
 }
 
 /* ========= */
@@ -29,7 +28,6 @@ img {
 .the-end {
   background: #1c2225;
   border-top: 1px solid rgba(252, 249, 249, 0.1);
-  height: auto;
 }
 
 .footer-list {
