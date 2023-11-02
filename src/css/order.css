@@ -7,7 +7,7 @@
 }
 
 .container-background-img {
-  wwidth: 375px;
+  width: 375px;
   height: 550px;
   background-image: url(../img/mobile/form-mobile-1x.jpg);
   background-repeat: no-repeat;
@@ -181,6 +181,10 @@
     border-radius: 4px;
     background: lightgray 50% / cover no-repeat;
   }
+
+  .picture-box {
+    padding-bottom: 79px;
+  }
 }
 @media screen and (min-width: 1280px) {
   .title-order {
@@ -223,5 +227,9 @@
     background-image: url(../img/pc-1280/form-back-pc-1x.png);
     background-repeat: no-repeat;
     background-position: left 306px;
+  }
+
+  .picture-box {
+    padding-bottom: 0;
   }
 }
