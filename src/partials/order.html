@@ -13,6 +13,7 @@
             type="text"
             name="name"
             placeholder="Enter your full name"
+            required
           />
         </label>
         <label class="label">
@@ -21,6 +22,7 @@
             type="email"
             name="email"
             placeholder="Enter your email"
+            required
           />
         </label>
         <textarea
@@ -29,13 +31,13 @@
           rows="7"
           placeholder="Comment"
         ></textarea>
+        <button class="form-button" type="submit">
+          SEND
+          <svg class="svg-form" width="26" height="21">
+            <use href="../public/favicon.svg#arrow"></use>
+          </svg>
+        </button>
       </form>
-      <button class="form-button" type="submit">
-        SEND
-        <svg class="svg-form" width="26" height="21">
-          <use href="../public/favicon.svg#arrow"></use>
-        </svg>
-      </button>
     </div>
     <div class="picture-box">
       <picture>
