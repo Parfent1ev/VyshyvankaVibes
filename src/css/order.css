@@ -23,11 +23,11 @@
 }
 
 @media (min-device-pixel-ratio: 2),
-(min-resolution: 192dpi),
-(min-resolution: 2dppx) {
-.container-background-img {
-  background-image: url(../img/mobile/form-mobile-2x.jpg);
-}
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .container-background-img {
+    background-image: url(../img/mobile/form-mobile-2x.jpg);
+  }
 }
 
 .title-order {
@@ -126,6 +126,10 @@
   }
 }
 @media screen and (min-width: 768px) {
+  .container-order {
+    margin-top: 100px;
+  }
+
   .container-background-img {
     width: 768px;
     height: 776px;
@@ -140,49 +144,47 @@
     }
   }
 
-  .container-order {
-    background-image: url(../img/tablet/form-back-tab-1x.png);
-    background-repeat: no-repeat;
-    background-position: left 956px;
-    margin-top: 100px;
-  }
-
-  @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-      .container-order {
-        background-image: url(../img/tablet/form-back-tab-2x.png);
-      }
+  .order {
+  background-image: url(../img/tablet/form-back-tab-1x.png);
+  background-repeat: no-repeat;
+  background-position: left bottom;
   }
 
   .form-btn-box {
     align-items: start;
   }
+
   .title-order {
     font-size: 44px;
     line-height: 58px;
     letter-spacing: -1.32px;
     max-width: 542px;
   }
+
   .form {
     width: 508px;
   }
+
   .label {
     width: 100%;
   }
+
   .form-input {
     width: 100%;
   }
+
   .form-input::placeholder {
     font-size: 16px;
     letter-spacing: -0.32px;
   }
+
   .form-button {
     padding: 14px 39px;
     font-size: 16px;
     letter-spacing: -0.64px;
     margin-bottom: 100px;
   }
+
   .img-order {
     display: block;
     border-radius: 4px;
@@ -196,10 +198,15 @@
   }
 }
 @media screen and (min-width: 1280px) {
+  .container-order {
+    margin-top: 150px;
+  }
+
   .container-background-img {
     width: 1282px;
     background-image: url(../img/pc-1280/form-pc-1x.jpg);
   }
+
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
@@ -207,32 +214,26 @@
       background-image: url(../img/pc-1280/form-pc-2x.jpg);
     }
   }
-  
+
   .container-order {
     display: flex;
     flex-direction: row-reverse;
     gap: 50px;
-    margin-top: 150px;
   }
+
   .form-button {
     margin-bottom: 0;
   }
+
   .img-order {
     width: 524px;
     height: 521px;
   }
-  .container-order {
-    background-image: url(../img/pc-1280/form-back-pc-1x.png);
-    background-repeat: no-repeat;
-    background-position: left 306px;
-  }
 
-  @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-      .container-order {
-        background-image: url(../img/pc-1280/form-back-pc-2x.png);
-      }
+  .order {
+  background-image: url(../img/pc-1280/form-back-pc-1x.png);
+  background-repeat: no-repeat;
+  background-position: left bottom;
   }
 
   .picture-box {
