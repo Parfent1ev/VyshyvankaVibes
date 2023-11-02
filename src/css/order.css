@@ -153,6 +153,11 @@
     .container-order {
       background-image: url(../img/tablet/form-back-tab-2x.png);
     }
+
+  .order {
+  background-image: url(../img/tablet/form-back-tab-1x.png);
+  background-repeat: no-repeat;
+  background-position: left bottom;
   }
 
   .form-btn-box {
@@ -244,6 +249,11 @@
     .container-order {
       background-image: url(../img/pc-1280/form-back-pc-2x.png);
     }
+
+  .order {
+  background-image: url(../img/pc-1280/form-back-pc-1x.png);
+  background-repeat: no-repeat;
+  background-position: left bottom;
   }
 
   .picture-box {
