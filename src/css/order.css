@@ -133,10 +133,10 @@
     }
   }
 
-  .container-order {
-    background-image: url(../img/tablet/form-back-tab-1x.png);
-    background-repeat: no-repeat;
-    background-position: left 956px;
+  .order {
+  background-image: url(../img/tablet/form-back-tab-1x.png);
+  background-repeat: no-repeat;
+  background-position: left bottom;
   }
 
   .form-btn-box {
@@ -223,10 +223,10 @@
     height: 521px;
   }
 
-  .container-order {
-    background-image: url(../img/pc-1280/form-back-pc-1x.png);
-    background-repeat: no-repeat;
-    background-position: left 306px;
+  .order {
+  background-image: url(../img/pc-1280/form-back-pc-1x.png);
+  background-repeat: no-repeat;
+  background-position: left bottom;
   }
 
   .picture-box {
