@@ -4,6 +4,14 @@
   justify-content: center;
   align-items: center;
   gap: 40px;
+.pc-foto {display: none;}
+
+.container-order {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
 }
 
 .container-background-img {
@@ -16,6 +24,13 @@
   padding: 0;
   display: block;
   margin: 0 auto;
+max-width: 100%;
+height: 550px;
+background-image: url(../img/mobile/form-mobile-1x.jpg);
+background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+padding: 0;
 }
 @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
@@ -144,6 +159,32 @@
     max-width: 542px;
   }
   .form {
+.container-background-img {
+        height: 776px;
+        background-image: url(../img/tablet/form-tab-1x.jpg);}
+
+  @media (min-device-pixel-ratio: 2),
+   (min-resolution: 192dpi),
+   (min-resolution: 2dppx) {
+    .container-background-img {
+    background-image: url(../img/tablet/form-tab-2x.jpg);
+ }
+}
+
+    .container-order {
+        background-image: url(../img/tablet/form-back-tab-1x.png);
+        background-repeat: no-repeat;
+        background-position: left 1116px;
+        align-items: start;
+    }
+    .title-order {
+font-size: 44px;
+line-height: 58px;
+letter-spacing: -0.03em;
+max-width: 542px;
+margin-top: 100px;
+    }
+.form {
     width: 508px;
   }
   .label {
@@ -151,6 +192,7 @@
   }
   .form-input {
     width: 100%;
+
   }
   .form-input::placeholder {
     font-size: 16px;
@@ -163,6 +205,17 @@
     margin-bottom: 100px;
   }
   .img-order {
+    font-size: 16px;
+}
+    .form-input::placeholder {
+        font-size: 16px;
+    }
+    .form-button {
+        padding: 14px 39px;
+        font-size: 16px;
+        margin-bottom: 100px;
+    }
+.img-order {
     display: block;
     margin-right: 12px;
     margin-left: 66px;
@@ -171,6 +224,7 @@
   }
 }
 @media screen and (min-width: 1280px) {
+
   .title-order {
     margin-top: 150px;
   }
@@ -212,4 +266,35 @@
     background-repeat: no-repeat;
     background-position: left 306px;
   }
+
+    .container-background-img {
+        background-image: url(../img/pc-1280/form-pc-1x.jpg);
+        }
+    
+        @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+        .container-background-img {
+        background-image: url(../img/pc-1280/form-pc-2x.jpg);
+            }
+        }
+
+.img-order {display: none;
+   }
+
+   .pc-foto {display: block;
+}
+
+.title-order {margin: 0;
+    
+}
+.container-order-pc {
+    margin-top: 150px;
+        display: flex;
+        gap: 50px;
+        /* background-image: url(../img/tablet/form-back-tab-1x.png);
+            background-repeat: no-repeat;
+            background-position: left 1116px;
+            align-items: start; */
+}
 }
