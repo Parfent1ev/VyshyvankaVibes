@@ -1,0 +1,67 @@
+<section class="order" id="order">
+  <div class="container-background-img"></div>
+  <div class="container container-order">
+    <div class="form-btn-box">
+      <h1 class="title-order">
+        <span class="title-order title-order-span">Your order</span> is our
+        priority: Personalized approach and quality of service
+      </h1>
+      <form class="form" name="form-order" autocomplete="off">
+        <label class="label">
+          <input
+            class="form-input"
+            type="text"
+            name="name"
+            placeholder="Enter your full name"
+          />
+        </label>
+        <label class="label">
+          <input
+            class="form-input"
+            type="email"
+            name="email"
+            placeholder="Enter your email"
+          />
+        </label>
+        <textarea
+          class="textarea form-input"
+          name="user-comment"
+          rows="7"
+          placeholder="Comment"
+        ></textarea>
+      </form>
+      <button class="form-button" type="submit">
+        SEND
+        <svg class="svg-form" width="26" height="21">
+          <use href="../public/favicon.svg#arrow"></use>
+        </svg>
+      </button>
+    </div>
+    <div class="picture-box">
+      <picture>
+        <source
+          srcset="
+            ./img/pc-1280/form2-pc-1x.jpg 1x,
+            ./img/pc-1280/form2-pc-2x.jpg 2x
+          "
+          media="(min-width: 1280px)" />
+        <source
+          srcset="
+            ./img/tablet/form2-tab-1x.jpg 1x,
+            ./img/tablet/form2-tab-2x.jpg 2x
+          "
+          media="(min-width: 768px)" />
+        <img
+          class="img-order"
+          srcset="
+            ./img/tablet/form2-tab-1x.jpg 1x,
+            ./img/tablet/form2-tab-2x.jpg 2x
+          "
+          src="./img/tablet/form2-tab-1x.jpg"
+          alt="Vyshyvanka"
+          width="638"
+          height="521"
+      /></picture>
+    </div>
+  </div>
+</section>
