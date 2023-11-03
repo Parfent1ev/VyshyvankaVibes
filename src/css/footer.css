@@ -21,6 +21,7 @@ p {
 img {
   display: block;
   max-width: 100%;
+  height: auto;
 }
 
 /* ========= */
@@ -28,13 +29,13 @@ img {
 .the-end {
   background: #1c2225;
   border-top: 1px solid rgba(252, 249, 249, 0.1);
+  height: auto;
 }
 
 .footer-list {
   display: flex;
   flex-wrap: wrap;
   gap: 25px 40px;
-  margin-top: 40px;
 }
 
 .footer-list-link {
@@ -64,27 +65,28 @@ img {
   letter-spacing: -1.32px;
   max-width: 335px;
   margin-top: 40px;
-  /* margin-bottom: 80px; */
+  margin-bottom: 80px;
 }
 
 .footer {
-  background-size: 375px;
+  /* background-size: 375px;
   background-image: url(../img/mobile/footer-mob-1x.png);
   background-repeat: no-repeat;
   background-position: bottom;
-  height: 100vh;
+  height: 100vh; */
+  padding-top: 40px;
 }
 
-/* .footer-img {
+.footer-img {
   background: inherit;
   padding-top: 200px;
   background-size: 375px;
   background-image: url(../img/mobile/footer-mob-1x.png);
   background-repeat: no-repeat;
   background-position: 50% 50%;
-  width: 100%;
+  /* width: 100%; */
   margin-top: 80px;
-} */
+}
 
 .footer-list-link:hover,
 .footer-list-link:focus {
@@ -92,7 +94,7 @@ img {
 }
 
 @media (min-resolution: 192dpi) {
-  .footer {
+  .footer-img {
     background-image: url(../img/mobile/footer-mob-2x.png);
   }
 }
@@ -108,15 +110,13 @@ img {
 @media screen and (min-width: 768px) {
   .container {
     width: 768px;
-    padding: 0 32px;
+    padding: 40px 32px;
   }
 
   .footer-list {
     flex-wrap: nowrap;
     gap: 25px;
     margin-top: 0;
-    position: relative;
-    top: 40px;
   }
 
   .footer-list-item {
@@ -124,11 +124,15 @@ img {
   }
 
   .footer-text {
-    margin-top: 123px;
+    margin-top: 80px;
     font-size: 54px;
     line-height: 1.185; /* 118.519% */
     letter-spacing: -1.62px;
     max-width: 521px;
+  }
+
+  .footer-img {
+    display: none;
   }
 
   .footer {
@@ -136,6 +140,7 @@ img {
     background-size: contain;
     background-position: top right;
     max-height: 370px;
+    background-repeat: no-repeat;
   }
 
   @media (min-resolution: 192dpi) {
@@ -148,12 +153,12 @@ img {
 @media screen and (min-width: 1280px) {
   .container {
     width: 1280px;
-    padding: 0 100px;
+    padding: 40px 100px;
   }
 
   .footer-text {
     max-width: 754px;
-    margin-top: 165px;
+    margin-top: 117px;
     font-size: 64px;
     line-height: 1.15;
     letter-spacing: -1.92px;
